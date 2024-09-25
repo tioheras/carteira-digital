@@ -1,7 +1,7 @@
 # Aplicação de Gestão de Transações Financeiras
 
 ## Descrição
-Esta aplicação foi desenvolvida para proporcionar uma maneira eficiente e intuitiva de acompanhar entradas e saídas financeiras, permitindo que os usuários gerenciem seu dinheiro de forma simples e eficaz.
+Esta aplicação, além de ser extremamente funcional, foi minha primeira apliocação desenvolvida do zero para proporcionar uma maneira eficiente e intuitiva de acompanhar entradas e saídas financeiras, permitindo que os usuários gerenciem seu dinheiro de forma simples e eficaz.
 
 ## Stack Utilizada
 - **Frontend:** React.js
