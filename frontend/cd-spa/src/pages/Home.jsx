@@ -73,12 +73,13 @@ export default function Home () {
                 </div>
             </header>
 
-            <section className="bg-zinc-300 p-4 w-full h-full rounded flex items-center justify-center ">
+            <section className="bg-zinc-300 p-4 w-full h-full rounded flex items-center justify-center ax-w-lg mx-auto">
                 <ul className="w-full h-full flex flex-col justify-between">
                     <div className="h-[17rem] overflow-auto p-3">
                         {transactions.map((transaction, index) => (
                             <li key={index} className="flex justify-between items-start w-full">
                                 <span className="flex items-center gap-2">
+                                
                                     <span className="text-base text-zinc-500">
                                         {dayjs(transaction.created_at).format("DD/MM")}
                                     </span>
