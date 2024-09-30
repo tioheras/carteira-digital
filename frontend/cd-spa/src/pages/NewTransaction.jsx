@@ -8,6 +8,7 @@ import ErrorInput from "../components/ErrorInput";
 import Button from "../components/Button";
 import { createNewTransaction } from "../services/transactions";
 
+
 export default function NewTransaction() {
     const { type } = useParams();
     const navigate = useNavigate();

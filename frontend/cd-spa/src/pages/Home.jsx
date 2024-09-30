@@ -9,6 +9,8 @@ import Cookies from "js-cookie";
 import { userLogged } from "../services/user";
 import findAllTransactions from "../services/transactions";
 import dayjs from 'dayjs';
+import { BiPlus, BiMinus } from "react-icons/bi";
+
 
 export default function Home () {
     const navigate = useNavigate();
@@ -104,17 +106,17 @@ export default function Home () {
             </section>
 
             <footer className="w-full pt-2 flex gap-2 text-white text-lg font-bold">
-                <Button 
-                type="button" 
-                text="New Input" 
-                icon="plus"
-                transaction="input"
+                            <Button 
+                    type="button" 
+                    text="New Input" 
+                    icon={<BiPlus />} 
+                    transaction="input"
                 />
                 <Button 
-                type="button" 
-                text="New output" 
-                icon="minus"
-                transaction="output"
+                    type="button" 
+                    text="New Output" 
+                    icon={<BiMinus />} 
+                    transaction="output"
                 />
 
             </footer>
