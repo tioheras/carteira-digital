@@ -5,8 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-icons/go']
+      external: ['react-icons/go', 'react-icons/bi', 'react-icons/ai']
     }
   }
 });
-
